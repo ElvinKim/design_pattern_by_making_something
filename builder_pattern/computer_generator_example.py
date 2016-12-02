@@ -163,10 +163,6 @@ class Computer:
         self._graphic_card = graphic_card
 
 
-class SamsungCPU(CPU):
-    pass
-
-
 class DualCoreComputerDirector:
 
     def __init__(self, builder):
